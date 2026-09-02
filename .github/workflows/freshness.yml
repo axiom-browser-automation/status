@@ -1,0 +1,37 @@
+# Marks a synced status file "stale" (=> Upptime reads it as down) when Jenkins
+# Support/health-compile has not refreshed it for 30 min (3 missed compiles).
+# Files without a generatedAt (pre-launch seeds) are left alone.
+name: Freshness
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Mark stale status files
+        run: |
+          set -e
+          now=$(date -u +%s)
+          changed=0
+          for f in status/*.json; do
+            gen=$(jq -r '.generatedAt // empty' "$f" 2>/dev/null) || continue
+            [ -z "$gen" ] && continue
+            age=$(( now - $(date -u -d "$gen" +%s) ))
+            status=$(jq -r '.status' "$f")
+            if [ "$age" -gt 1800 ] && [ "$status" = "up" ]; then
+              jq '.status = "stale"' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
+              changed=1
+            fi
+          done
+          if [ "$changed" = 1 ]; then
+            git config user.name "Freshness Bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add status/*.json
+            git commit -m ":hourglass: Mark stale status files"
+            git push
+          fi

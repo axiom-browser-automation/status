@@ -1,31 +1,36 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Axiom service status — https://axiom-browser-automation.github.io/status/
+# The five sites check status JSON files synced into status/ by Jenkins
+# Support/health-compile (see axiom_monorepo features/AXIOM-6369.md).
+# A site is DOWN whenever its file lacks the `"status":"up"` marker
+# (covers a synced "down"/"stale", a malformed body, or a missing file).
+owner: axiom-browser-automation
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Website
+    url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/website.json
+    __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: Cloud
+    url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/cloud.json
+    __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: CDP
+    url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/cdp.json
+    __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: Extension
+    url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/extension.json
+    __dangerous__body_down_if_text_missing: '"status":"up"'
+  - name: Scheduler
+    url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/scheduler.json
+    __dangerous__body_down_if_text_missing: '"status":"up"'
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /status
+  name: Axiom Status
+  introTitle: "**Axiom.ai** service status"
+  introMessage: Live status of the Axiom browser-automation platform — website, cloud browsers, CDP, extension backend, and scheduler.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+assignees:
+  - yaseersheriff
