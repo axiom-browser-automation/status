@@ -30,7 +30,7 @@ status-website:
   introMessage: Live status of the Axiom browser-automation platform — website, cloud browsers, CDP, extension backend, and scheduler.
   navbar:
     - title: Status
-      href: /
+      href: /status/
 
 assignees:
   - yaseersheriff
