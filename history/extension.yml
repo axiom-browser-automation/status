@@ -1,7 +1,7 @@
-url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/extension.json
+url: $STATUS_JSON_BASE/extension.json
 status: up
 code: 200
-responseTime: 157
-lastUpdated: 2026-09-03T08:22:49.374Z
+responseTime: 91
+lastUpdated: 2026-09-03T08:28:08.065Z
 startTime: 2026-09-02T12:17:00.768Z
 generator: Upptime <https://github.com/upptime/upptime>
