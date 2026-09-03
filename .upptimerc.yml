@@ -1,5 +1,7 @@
 # Axiom service status — https://axiom-browser-automation.github.io/status/
-# The five sites check status JSON files synced into status/ by Jenkins
+# The five sites check status JSON files synced into status/ by Jenkins. $STATUS_JSON_BASE is a repo
+# secret holding the public raw.githubusercontent.com base URL: a $-placeholder URL is how upptime
+# keeps the service pages from linking the monitored URL (here the raw JSON).
 # Support/health-compile (see axiom_monorepo features/AXIOM-6369.md).
 # A site is DOWN whenever its file lacks the `"status":"up"` marker
 # (covers a synced "down"/"stale", a malformed body, or a missing file).
@@ -8,19 +10,19 @@ repo: status
 
 sites:
   - name: Website
-    url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/website.json
+    url: $STATUS_JSON_BASE/website.json
     __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: Cloud
-    url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/cloud.json
+    url: $STATUS_JSON_BASE/cloud.json
     __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: CDP
-    url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/cdp.json
+    url: $STATUS_JSON_BASE/cdp.json
     __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: Extension
-    url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/extension.json
+    url: $STATUS_JSON_BASE/extension.json
     __dangerous__body_down_if_text_missing: '"status":"up"'
   - name: Scheduler
-    url: https://raw.githubusercontent.com/axiom-browser-automation/status/HEAD/status/scheduler.json
+    url: $STATUS_JSON_BASE/scheduler.json
     __dangerous__body_down_if_text_missing: '"status":"up"'
 
 status-website:
