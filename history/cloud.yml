@@ -1,7 +1,7 @@
 url: $STATUS_JSON_BASE/cloud.json
 status: up
 code: 200
-responseTime: 151
-lastUpdated: 2026-09-08T00:47:03.144Z
+responseTime: 91
+lastUpdated: 2026-09-09T00:48:59.379Z
 startTime: 2026-09-02T12:16:59.836Z
 generator: Upptime <https://github.com/upptime/upptime>
