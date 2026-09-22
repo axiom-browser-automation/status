@@ -1,7 +1,7 @@
 url: $STATUS_JSON_BASE/cdp.json
 status: up
 code: 200
-responseTime: 109
-lastUpdated: 2026-09-21T00:37:07.309Z
+responseTime: 165
+lastUpdated: 2026-09-22T01:20:38.599Z
 startTime: 2026-09-02T12:17:00.324Z
 generator: Upptime <https://github.com/upptime/upptime>
