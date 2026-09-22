@@ -1,1 +1,1 @@
-{"service":"cdp","generatedAt":"2026-09-22T09:08:11.383Z","status":"up"}
+{"service":"cdp","generatedAt":"2026-09-22T09:13:18.123Z","status":"down","note":"Protocol error (Browser.getVersion): Target closed"}
