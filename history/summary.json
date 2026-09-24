@@ -60,20 +60,20 @@
     "url": "$STATUS_JSON_BASE/extension.json",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "extension",
-    "status": "down",
-    "uptime": "99.94%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.80%",
-    "uptimeMonth": "99.94%",
-    "uptimeYear": "99.94%",
-    "time": 136,
-    "timeDay": 73,
-    "timeWeek": 135,
-    "timeMonth": 136,
-    "timeYear": 136,
+    "status": "up",
+    "uptime": "99.84%",
+    "uptimeDay": "97.89%",
+    "uptimeWeek": "99.50%",
+    "uptimeMonth": "99.84%",
+    "uptimeYear": "99.84%",
+    "time": 134,
+    "timeDay": 76,
+    "timeWeek": 133,
+    "timeMonth": 134,
+    "timeYear": 134,
     "dailyMinutesDown": {
       "2026-09-22": 20,
-      "2026-09-24": 0
+      "2026-09-24": 30
     }
   },
   {
