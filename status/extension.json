@@ -1,1 +1,1 @@
-{"service":"extension","generatedAt":"2026-10-02T18:18:35.359Z","status":"up"}
+{"service":"extension","generatedAt":"2026-10-02T18:28:36.766Z","status":"down","note":"no completed build under ci-health-inputs/jobs/Support/jobs/e2e-tests/builds"}
