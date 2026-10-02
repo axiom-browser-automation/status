@@ -13,7 +13,7 @@
     "time": 130,
     "timeDay": 27,
     "timeWeek": 79,
-    "timeMonth": 130,
+    "timeMonth": 131,
     "timeYear": 130,
     "dailyMinutesDown": {}
   },
@@ -31,7 +31,7 @@
     "time": 141,
     "timeDay": 44,
     "timeWeek": 156,
-    "timeMonth": 141,
+    "timeMonth": 143,
     "timeYear": 141,
     "dailyMinutesDown": {}
   },
@@ -41,15 +41,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cdp",
     "status": "up",
-    "uptime": "99.58%",
+    "uptime": "99.59%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.58%",
-    "uptimeYear": "99.58%",
+    "uptimeMonth": "99.59%",
+    "uptimeYear": "99.59%",
     "time": 114,
     "timeDay": 21,
     "timeWeek": 91,
-    "timeMonth": 114,
+    "timeMonth": 115,
     "timeYear": 114,
     "dailyMinutesDown": {
       "2026-09-22": 178
@@ -60,20 +60,21 @@
     "url": "$STATUS_JSON_BASE/extension.json",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "extension",
-    "status": "up",
+    "status": "down",
     "uptime": "99.88%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.88%",
     "uptimeYear": "99.88%",
-    "time": 119,
-    "timeDay": 53,
-    "timeWeek": 84,
-    "timeMonth": 119,
-    "timeYear": 119,
+    "time": 117,
+    "timeDay": 23,
+    "timeWeek": 80,
+    "timeMonth": 118,
+    "timeYear": 117,
     "dailyMinutesDown": {
       "2026-09-22": 20,
-      "2026-09-24": 30
+      "2026-09-24": 30,
+      "2026-10-02": 0
     }
   },
   {
@@ -90,7 +91,7 @@
     "time": 152,
     "timeDay": 24,
     "timeWeek": 88,
-    "timeMonth": 152,
+    "timeMonth": 155,
     "timeYear": 152,
     "dailyMinutesDown": {}
   }
