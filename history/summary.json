@@ -40,20 +40,20 @@
     "url": "$STATUS_JSON_BASE/cdp.json",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cdp",
-    "status": "up",
-    "uptime": "99.74%",
-    "uptimeDay": "99.37%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.57%",
-    "uptimeYear": "99.74%",
-    "time": 110,
-    "timeDay": 83,
-    "timeWeek": 93,
-    "timeMonth": 98,
-    "timeYear": 110,
+    "status": "down",
+    "uptime": "99.75%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.59%",
+    "uptimeYear": "99.75%",
+    "time": 109,
+    "timeDay": 68,
+    "timeWeek": 88,
+    "timeMonth": 96,
+    "timeYear": 109,
     "dailyMinutesDown": {
       "2026-09-22": 178,
-      "2026-10-21": 9
+      "2026-10-21": 0
     }
   },
   {
@@ -86,17 +86,19 @@
     "url": "$STATUS_JSON_BASE/scheduler.json",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "scheduler",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 136,
-    "timeDay": 149,
-    "timeWeek": 105,
-    "timeMonth": 104,
-    "timeYear": 136,
-    "dailyMinutesDown": {}
+    "time": 134,
+    "timeDay": 85,
+    "timeWeek": 95,
+    "timeMonth": 101,
+    "timeYear": 134,
+    "dailyMinutesDown": {
+      "2026-10-21": 0
+    }
   }
 ]
