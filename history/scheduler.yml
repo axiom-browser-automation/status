@@ -1,7 +1,7 @@
 url: $STATUS_JSON_BASE/scheduler.json
-status: down
+status: up
 code: 200
-responseTime: 21
-lastUpdated: 2026-10-21T20:40:40.335Z
+responseTime: 156
+lastUpdated: 2026-10-21T20:49:36.348Z
 startTime: 2026-09-02T12:17:01.233Z
 generator: Upptime <https://github.com/upptime/upptime>
