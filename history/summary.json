@@ -41,19 +41,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "cdp",
     "status": "up",
-    "uptime": "99.74%",
-    "uptimeDay": "99.38%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.57%",
-    "uptimeYear": "99.74%",
+    "uptime": "99.75%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "99.59%",
+    "uptimeYear": "99.75%",
     "time": 110,
     "timeDay": 86,
     "timeWeek": 93,
     "timeMonth": 97,
     "timeYear": 110,
     "dailyMinutesDown": {
-      "2026-09-22": 178,
-      "2026-10-21": 9
+      "2026-09-22": 178
     }
   },
   {
@@ -61,17 +60,17 @@
     "url": "$STATUS_JSON_BASE/extension.json",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "extension",
-    "status": "down",
-    "uptime": "98.47%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.80%",
-    "uptimeMonth": "97.52%",
-    "uptimeYear": "98.47%",
-    "time": 110,
-    "timeDay": 90,
-    "timeWeek": 95,
-    "timeMonth": 96,
-    "timeYear": 110,
+    "status": "up",
+    "uptime": "98.46%",
+    "uptimeDay": "99.32%",
+    "uptimeWeek": "99.71%",
+    "uptimeMonth": "97.49%",
+    "uptimeYear": "98.46%",
+    "time": 111,
+    "timeDay": 123,
+    "timeWeek": 103,
+    "timeMonth": 97,
+    "timeYear": 111,
     "dailyMinutesDown": {
       "2026-09-22": 20,
       "2026-09-24": 30,
@@ -79,7 +78,7 @@
       "2026-10-09": 688,
       "2026-10-12": 20,
       "2026-10-20": 20,
-      "2026-10-21": 0
+      "2026-10-21": 10
     }
   },
   {
@@ -88,18 +87,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "scheduler",
     "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.38%",
-    "uptimeWeek": "99.91%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.99%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 134,
     "timeDay": 109,
     "timeWeek": 101,
     "timeMonth": 103,
     "timeYear": 134,
-    "dailyMinutesDown": {
-      "2026-10-21": 9
-    }
+    "dailyMinutesDown": {}
   }
 ]
