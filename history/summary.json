@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 128,
-    "timeDay": 154,
-    "timeWeek": 102,
-    "timeMonth": 124,
-    "timeYear": 128,
+    "time": 129,
+    "timeDay": 152,
+    "timeWeek": 117,
+    "timeMonth": 123,
+    "timeYear": 129,
     "dailyMinutesDown": {}
   },
   {
@@ -29,9 +29,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 140,
-    "timeDay": 228,
-    "timeWeek": 138,
-    "timeMonth": 141,
+    "timeDay": 166,
+    "timeWeek": 156,
+    "timeMonth": 142,
     "timeYear": 140,
     "dailyMinutesDown": {}
   },
@@ -47,8 +47,8 @@
     "uptimeMonth": "99.59%",
     "uptimeYear": "99.75%",
     "time": 110,
-    "timeDay": 86,
-    "timeWeek": 93,
+    "timeDay": 83,
+    "timeWeek": 98,
     "timeMonth": 97,
     "timeYear": 110,
     "dailyMinutesDown": {
@@ -61,14 +61,14 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "extension",
     "status": "up",
-    "uptime": "98.46%",
-    "uptimeDay": "99.32%",
-    "uptimeWeek": "99.71%",
-    "uptimeMonth": "97.49%",
-    "uptimeYear": "98.46%",
+    "uptime": "98.48%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "99.80%",
+    "uptimeMonth": "97.52%",
+    "uptimeYear": "98.48%",
     "time": 111,
-    "timeDay": 123,
-    "timeWeek": 103,
+    "timeDay": 140,
+    "timeWeek": 111,
     "timeMonth": 97,
     "timeYear": 111,
     "dailyMinutesDown": {
@@ -77,8 +77,7 @@
       "2026-10-08": 310,
       "2026-10-09": 688,
       "2026-10-12": 20,
-      "2026-10-20": 20,
-      "2026-10-21": 10
+      "2026-10-20": 20
     }
   },
   {
@@ -92,11 +91,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 134,
-    "timeDay": 109,
-    "timeWeek": 101,
+    "time": 135,
+    "timeDay": 112,
+    "timeWeek": 114,
     "timeMonth": 103,
-    "timeYear": 134,
+    "timeYear": 135,
     "dailyMinutesDown": {}
   }
 ]
