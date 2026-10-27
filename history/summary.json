@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 125,
-    "timeDay": 59,
-    "timeWeek": 99,
-    "timeMonth": 110,
-    "timeYear": 125,
+    "time": 124,
+    "timeDay": 56,
+    "timeWeek": 96,
+    "timeMonth": 106,
+    "timeYear": 124,
     "dailyMinutesDown": {}
   },
   {
@@ -29,9 +29,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 135,
-    "timeDay": 22,
-    "timeWeek": 124,
-    "timeMonth": 134,
+    "timeDay": 158,
+    "timeWeek": 115,
+    "timeMonth": 140,
     "timeYear": 135,
     "dailyMinutesDown": {}
   },
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.77%",
-    "time": 108,
-    "timeDay": 48,
-    "timeWeek": 91,
-    "timeMonth": 100,
-    "timeYear": 108,
+    "time": 107,
+    "timeDay": 38,
+    "timeWeek": 81,
+    "timeMonth": 98,
+    "timeYear": 107,
     "dailyMinutesDown": {
       "2026-09-22": 178
     }
@@ -61,15 +61,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "extension",
     "status": "up",
-    "uptime": "98.57%",
-    "uptimeDay": "99.72%",
-    "uptimeWeek": "99.57%",
-    "uptimeMonth": "97.58%",
-    "uptimeYear": "98.57%",
+    "uptime": "98.59%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "99.61%",
+    "uptimeMonth": "97.59%",
+    "uptimeYear": "98.59%",
     "time": 110,
-    "timeDay": 74,
-    "timeWeek": 104,
-    "timeMonth": 95,
+    "timeDay": 84,
+    "timeWeek": 108,
+    "timeMonth": 96,
     "timeYear": 110,
     "dailyMinutesDown": {
       "2026-09-22": 20,
@@ -78,8 +78,7 @@
       "2026-10-09": 688,
       "2026-10-12": 20,
       "2026-10-20": 20,
-      "2026-10-23": 20,
-      "2026-10-26": 4
+      "2026-10-23": 20
     }
   },
   {
@@ -94,9 +93,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 131,
-    "timeDay": 59,
-    "timeWeek": 101,
-    "timeMonth": 100,
+    "timeDay": 127,
+    "timeWeek": 106,
+    "timeMonth": 101,
     "timeYear": 131,
     "dailyMinutesDown": {}
   }
