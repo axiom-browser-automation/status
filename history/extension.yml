@@ -1,7 +1,7 @@
 url: $STATUS_JSON_BASE/extension.json
 status: up
 code: 200
-responseTime: 149
-lastUpdated: 2026-11-12T12:29:21.694Z
+responseTime: 87
+lastUpdated: 2026-11-13T03:01:21.097Z
 startTime: 2026-09-02T12:17:00.768Z
 generator: Upptime <https://github.com/upptime/upptime>
