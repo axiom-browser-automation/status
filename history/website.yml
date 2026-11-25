@@ -1,7 +1,7 @@
 url: $STATUS_JSON_BASE/website.json
 status: up
 code: 200
-responseTime: 127
-lastUpdated: 2026-11-24T06:34:26.263Z
+responseTime: 68
+lastUpdated: 2026-11-25T05:07:57.558Z
 startTime: 2026-09-02T12:16:59.420Z
 generator: Upptime <https://github.com/upptime/upptime>
